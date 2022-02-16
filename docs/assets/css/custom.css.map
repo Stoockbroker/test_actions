@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"custom.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"$nav-background-color: #f3f3f3;\r\n$primary-color: #bf9f5a;\r\n$secondary-color: #333;\r\n\r\n// DEFAULTS\r\n\r\nbody {\r\n  font-family: 'Josefin Sans', sans-serif;\r\n  font-size: 18px;\r\n  line-height: 1.5em;\r\n  background: #fff;\r\n}\r\n\r\n#main-footer {\r\n  position: relative;\r\n  bottom: 0;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color:  $primary-color;\r\n}\r\n\r\na:hover {\r\n  text-decoration: underline;\r\n  color:  $primary-color;\r\n}\r\n\r\n#logo {\r\n  width: 250px;\r\n  height: auto;\r\n}\r\n\r\n#index-card {\r\n\r\n  a {\r\n    text-decoration: none;\r\n    color: $secondary-color;\r\n  }\r\n\r\n  a:hover {\r\n    color: $primary-color;\r\n  }\r\n}\r\n\r\n.card-img-top {\r\n  width: 100%;\r\n  height: 30vh;\r\n  object-fit: contain;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACMA,AAAA,IAAI,CAAC,EACH,WAAW,EAAE,0BAA0B,EACvC,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,KAAK,EAClB,UAAU,EAAE,IAAI,GACjB;;AAED,AAAA,YAAY,CAAC,EACX,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,CAAC,CAAC,EACA,eAAe,EAAE,IAAI,EACrB,KAAK,EAnBS,OAAO,GAoBtB;;AAED,AAAA,CAAC,CAAC,KAAK,CAAC,EACN,eAAe,EAAE,SAAS,EAC1B,KAAK,EAxBS,OAAO,GAyBtB;;AAED,AAAA,KAAK,CAAC,EACJ,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,IAAI,GACb;;AAED,AAEE,WAFS,CAET,CAAC,CAAC,EACA,eAAe,EAAE,IAAI,EACrB,KAAK,EAnCS,IAAI,GAoCnB;;AALH,AAOE,WAPS,CAOT,CAAC,CAAC,KAAK,CAAC,EACN,KAAK,EAxCO,OAAO,GAyCpB;;AAGH,AAAA,aAAa,CAAC,EACZ,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,EACZ,UAAU,EAAE,OAAO,GACpB"
+}

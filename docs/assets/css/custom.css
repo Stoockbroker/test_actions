@@ -1,0 +1,17 @@
+body { font-family: 'Josefin Sans', sans-serif; font-size: 18px; line-height: 1.5em; background: #fff; }
+
+#main-footer { position: relative; bottom: 0; }
+
+a { text-decoration: none; color: #bf9f5a; }
+
+a:hover { text-decoration: underline; color: #bf9f5a; }
+
+#logo { width: 250px; height: auto; }
+
+#index-card a { text-decoration: none; color: #333; }
+
+#index-card a:hover { color: #bf9f5a; }
+
+.card-img-top { width: 100%; height: 30vh; object-fit: contain; }
+
+/*# sourceMappingURL=custom.css.map */
